@@ -1,0 +1,32 @@
+.debug_box #container{
+    background: #FFF;
+}
+
+.toolbar-f16 .x-btn-default-toolbar-small-icon  {
+    font-size: 16px;
+    height: 16px;
+    color: #919191;
+    line-height: 16px;
+}
+
+.toolbar-f16 .x-btn-over.x-btn-default-toolbar-small {
+    background-image: none;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.toolbar-f16 .x-btn-default-toolbar-small {
+    padding: 0 7px 7px 7px;
+    border-color: transparent;
+    background: none;
+}
+
+
+
+.toolbar-f16 .x-btn-over .fa{
+    color: #2f4c66;
+}
+
+.toolbar-f16 .x-btn-default-toolbar-small.x-pressed .fa{
+    color: #136618;
+}

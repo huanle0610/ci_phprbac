@@ -1,0 +1,7 @@
+svg text {
+    cursor: pointer;
+}
+
+svg text.active {
+    fill: red;
+}
