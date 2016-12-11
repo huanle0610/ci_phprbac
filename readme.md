@@ -40,5 +40,9 @@ server {
 
 
 - import [sql](extra/phprbac.sql)
+```sql
+GRANT ALL ON `ci_rbac`.* TO dragonfly@localhost IDENTIFIED BY 'dragonfly';
+FLUSH PRIVILEGES;
+```
 
 - throw [plantuml](extra/plantuml.war) in [tomcat](http://tomcat.apache.org/download-70.cgi)
