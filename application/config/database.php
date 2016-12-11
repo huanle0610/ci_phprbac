@@ -74,7 +74,7 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 // Set Database permission
-//GRANT ALL ON `sakila`.* TO dragonfly@localhost IDENTIFIED BY 'dragonfly';
+//GRANT ALL ON `ci_rbac`.* TO dragonfly@localhost IDENTIFIED BY 'dragonfly';
 //FLUSH PRIVILEGES;
 $db['default'] = array(
 //	'dsn'	=> 'mysql:host=localhost;dbname=sakila;username=dragonfly;',
@@ -82,7 +82,7 @@ $db['default'] = array(
 	'hostname' => 'localhost',
 	'username' => 'dragonfly',
 	'password' => 'dragonfly',
-	'database' => 'dragonfly_rbac',
+	'database' => 'ci_rbac',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => TRUE,

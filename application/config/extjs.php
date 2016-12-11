@@ -1,11 +1,11 @@
 <?php
 // extjs resource
 // cdn
-//$config['extjs']['js'] = '//cdn.bootcss.com/extjs/4.2.1/ext-all.min.js';
-//$config['extjs']['css'] = '//cdn.bootcss.com/extjs/4.2.1/resources/css/ext-all-gray.css';
+$config['extjs']['js'] = '//cdn.bootcss.com/extjs/4.2.1/ext-all.min.js';
+$config['extjs']['css'] = '//cdn.bootcss.com/extjs/4.2.1/resources/css/ext-all-gray.css';
 //
-$config['extjs']['js'] = '//www.extjs423.com/ext-all.js';
-$config['extjs']['css'] = '//www.extjs423.com/resources/ext-theme-gray/ext-theme-gray-all.css';
+//$config['extjs']['js'] = '//www.extjs423.com/ext-all.js';
+//$config['extjs']['css'] = '//www.extjs423.com/resources/ext-theme-gray/ext-theme-gray-all.css';
 //$config['extjs']['css'] = '//www.extjs423.com/resources/ext-theme-neptune/ext-theme-neptune-all.css';
 $config['extjs']['font-awesome'] = 'resources/font-awesome/css/font-awesome.min.css';
 

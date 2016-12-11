@@ -109,12 +109,6 @@ Ext.define('Myapp.view.Viewport', {
                     layout: 'fit',
                     split: true,
                     title: 'Navigation',
-                    tools: [
-                        {
-                            type: 'gear',
-                            itemId: 'navTreeSetting'
-                        }
-                    ],
                     items: [
                         {
                             cls: 'nav-menu',
